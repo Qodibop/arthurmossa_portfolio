@@ -37,7 +37,7 @@ body {
 }
 
 h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Poiret One", cursive;
   font-size: 5rem;
   font-weight: 600;
   text-align: center;
@@ -53,18 +53,21 @@ h2 {
 
 h3 {
   font-family: "Poiret One", cursive;
-  font-size: 2rem;
+  font-size: 2.6rem;
   text-align: center;
-  padding: 0.5rem 0;
+  padding: 0.5rem 5vw 3vh;
+  height: 15vh;
 }
 
 h4 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 2rem;
+  font-size: 2.8vw;
   text-align: center;
+  padding: 2vh 10vw;
 }
 
 h5 {
+  font-family: "Cormorant Garamond", serif;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -180,7 +183,7 @@ h6 {
 header {
   background-color: rgb(2, 115, 113); /* Used if the image is unavailable */
   /* min-height: calc(100vh - 50px); */
-  background-image: url(../img/background.png);
+  background-image: url(../img/bg_adventure.png);
   min-height: 100vh;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -198,6 +201,7 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
+  margin-bottom: 4vh;
 }
 .mouse:after {
   content: "";
@@ -259,75 +263,65 @@ header {
   align-content: center;
 }
 
-#about_header {
-  display: flex;
-  flex-direction: row;
-}
-
 #about_header > img {
   margin-left: 5%;
 }
 
 #about_description_header {
-  margin-right: 5%;
-  padding-left: 2.5%;
+  display: flex;
+  flex-direction: column;
+  margin: 3vh 0 6vh;
 }
 
-#about_description_header > h3 {
-  text-align: left;
-  margin-bottom: 1vh;
-}
-#about_description_header > h4 {
-  text-align: left;
+#img_container {
+  display: flex;
+  justify-content: center;
 }
 
 #profile_pic {
-  width: 10vw;
-  /* transform: rotate(120deg); */
+  width: 20vw;
+  border-radius: 100%;
   margin: 0 1vw;
 }
 
-#about_description_body {
+#btn_cv {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
-.about_experiences {
-  margin-left: 5%;
-  margin-bottom: 1vh;
+button > a {
+  color: #efefef;
+  text-decoration: none;
 }
 
-.about_education {
-  margin-right: 5%;
-  margin-bottom: 1vh;
-}
-
-#about_addachievements {
-  margin-left: 5%;
-  margin-bottom: 1vh;
-}
-
-#about_languages {
-  margin-right: 5%;
-  margin-bottom: 1vh;
-  display: flex;
-  flex-direction: row;
+#btn_cv > button {
+  width: 15vw;
+  padding: 2vh 2vw;
+  background-color: rgb(0, 78, 94);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #efefef;
+  border-radius: 5%;
+  text-decoration: none;
+  margin: 8vh 0;
 }
 
 /* SECTION 2: PORTFOLIO */
 
 #projects {
   min-height: 100vh;
+  margin-bottom: 15vh;
 }
 .card_left,
 .card_right {
   display: flex;
   flex-direction: row;
+  max-height: 33vh;
 }
 
 .card_left > img,
 .card_right > img {
-  width: 10%;
+  max-width: 33vh;
   margin: 0 4vh;
 }
 
@@ -337,12 +331,12 @@ header {
 
 .text_card_right > p,
 .text_card_right > h6 {
-  padding: 1vh 0 0 10vw;
+  padding: 1vh 0 1vh 10vw;
 }
 
 .text_card_left > p,
 .text_card_left > h6 {
-  padding: 1vh 10vw 0 0;
+  padding: 1vh 10vw 1vh 0;
 }
 
 /* .text_card_left > h2 {
@@ -352,16 +346,26 @@ header {
   text-align: right;
 }
 
-.card_right,
-.card_left {
-  margin: 0 10vw;
+.project_card {
+  margin: 2vh 10vw;
 }
 
+.read_more {
+  color: orange;
+  text-decoration: none;
+  margin-top: 2vh;
+}
+
+.read_more:hover {
+  color: orange;
+  text-decoration: underline;
+  margin-top: 2vh;
+}
 /* FOOTER */
 
 footer {
-  background-color: rgb(2, 115, 113);
-  height: 10vh;
+  background-color: #002726;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
