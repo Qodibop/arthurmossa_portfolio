@@ -1,17 +1,7 @@
 /* FONT FAMILIES SELECTION
-
-
 font-family: 'Poiret One', cursive;
 font-family: 'Cormorant Garamond', serif;
 font-family: 'Montserrat', sans-serif;
-(font-family: 'Raleway', sans-serif;)
-font-family: 'Volkhov', serif;
-
-OTHER FONTFACES CHOICES:
-
-font-family: 'Playfair Display', serif;
-font-family: 'Roboto', sans-serif;
-
  */
 
 /* COLOR PANEL 
@@ -79,11 +69,6 @@ h6 {
 }
 
 /* NAVBAR SECTION */
-
-/* .artboard_navbar {
-  padding-left: 8vw;
-  padding-right: 4vw;
-} */
 
 .nav {
   height: 50px;
@@ -257,6 +242,7 @@ header {
     opacity: 0.01;
   }
 }
+
 /* SECTION 1: ABOUT */
 
 #about {
@@ -348,12 +334,7 @@ button > a {
   margin: 5vh 0;
   border-radius: 10px;
 }
-/* 
-#projects_uxui > .project_card {
-  background-color: bisque;
-  margin: 5vh 10vw;
-  border-radius: 10px;
-} */
+
 .last_card {
   margin-bottom: 30px;
 }
@@ -401,6 +382,7 @@ button > a {
   text-decoration: underline;
   margin-top: 2vh;
 }
+
 /* FOOTER */
 
 footer {
