@@ -342,10 +342,6 @@ button > a {
   border-radius: 10px;
 }
 
-.last_card {
-  margin-bottom: 30px;
-}
-
 .card_left,
 .card_right {
   display: flex;
@@ -353,10 +349,14 @@ button > a {
   max-height: 33vh;
   margin: 5vh 10vw;
 }
+.last_card {
+  margin-bottom: 10vh;
+}
 
 .card_left > img,
 .card_right > img {
   width: 20vh;
+  height: 20vh;
   margin: 0 4vh;
   border-radius: 100%;
 }
@@ -386,9 +386,7 @@ button > a {
 }
 
 .read_more:hover {
-  color: orange;
   text-decoration: underline;
-  margin-top: 2vh;
 }
 
 /* FOOTER */
