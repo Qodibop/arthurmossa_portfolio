@@ -327,6 +327,13 @@ button > a {
   margin: 5vh 0;
   border-radius: 10px;
 }
+.card_left > video {
+  margin-right: 2vw;
+}
+
+.card_right > video {
+  margin-left: 2vw;
+}
 
 #projects_webdev > h3 {
   padding: 30px 0 0;
@@ -349,8 +356,9 @@ button > a {
 
 .card_left > img,
 .card_right > img {
-  max-width: 33vh;
+  width: 20vh;
   margin: 0 4vh;
+  border-radius: 100%;
 }
 
 .text_card_right {
@@ -407,3 +415,22 @@ footer > a > i {
   text-decoration: none;
   color: white;
 }
+
+/* VIDEO PLAYER EMBEDED */
+/* 
+.video-container {
+  position: relative;
+  padding-bottom: 30%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+} */
